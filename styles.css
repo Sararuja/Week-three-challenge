@@ -1,0 +1,69 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+section {
+  padding: 50px;
+}
+
+h1 {
+  background-color: burlywood;
+}
+
+p {
+  background-color: burlywood;
+}
+
+#home {
+  background-color: burlywood;
+  text-align: center;
+}
+
+#about {
+  background-color: burlywood;
+}
+
+#portfolio {
+  background-color: blanchedalmond;
+}
+
+#contact {
+  background-color: burlywood;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.project img {
+  max-width: 100%; /* Corrected the max-width property */
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  padding: 5px; 
+}
